@@ -2,8 +2,6 @@ import os
 import boto3
 # from utilities import get_value
 
-KEYS_FILE = 'keys.json'
-
 ACCESS_KEY = os.environ.get('AWS_ACCESS_KEY_ID')
 SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 
