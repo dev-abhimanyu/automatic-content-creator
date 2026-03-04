@@ -1,0 +1,6 @@
+// Creating a new python virtual environment
+python3 -m venv ./acc-venv
+// invoke venv
+source acc-venv/bin/activate
+// packages installed in acc-venv
+- python3 -m pip install requests

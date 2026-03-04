@@ -1,0 +1,12 @@
+I am making a YouTube shorts video on "Comets". Total Duration of the video should be 2 minutes. I will be automating this video creation process by creating images from a text-to-image service and audio from a text-to-speech service.
+Give me a good video topic on "facts". Also, give me the image descriptions which will descript the scene and their corresponding narration text. 
+Based on the topic, decide on the number of images but note that the complete video should not include more than 12 images. Keep in mind that the total duration of video is just 2 minutes so the total text length should take that into consideration.
+All the information should be factually correct.
+Note that your response should not include any greetings, acknowledgements, introdcutory sentences, concluding sentences or any other information apart from the asked infromation. This is a strict requirement and must be followed.
+The response should contain the video title in the first line followed by the image description which will be sent to a text-to-image service which will generate the image. It should be followed by a separator which is a pipe symbol ('|') and then the text which explains that image. This text will be sent to a text-to-speech service to generate the audio.
+Every time I prompt you for such requests, I should get the response based on distinct facts that is the facts should not be repeated to create the response.
+Here is an example template of how your response should look like:
+VIDEO_TITLE
+IMAGE1_DESCRIPTION|Text1
+IMAGE2_DESCRIPTION|Text2
+IMAGE3_DESCRIPTION|Text3
